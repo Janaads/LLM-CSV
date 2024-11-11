@@ -11,7 +11,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 load_dotenv()
 
 # Path to your CSV file
-csv_file_path = os.path.join('csv', 'sample 1.csv')
+csv_file_path = os.path.join('csv', 'sample 1000.csv')
 
 # Load CSV data and precompute embeddings
 def load_data_and_embeddings(file_path):
