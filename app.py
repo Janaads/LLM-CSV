@@ -52,7 +52,7 @@ def chat_with_csv(df, query, embeddings, model):
 
 # Set layout configuration for the Streamlit page
 st.set_page_config(layout='wide')
-st.title("Distributed UI CORE Exploitation Pattern Platform using cloud")
+st.title("Distributed UI core Exploitation Pattern Platform using cloud")
 
 # Load data and embeddings from the specified CSV file
 try:
