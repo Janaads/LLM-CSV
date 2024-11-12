@@ -52,7 +52,7 @@ def chat_with_csv(df, query, embeddings, model):
 
 # Set layout configuration for the Streamlit page
 st.set_page_config(layout='wide')
-st.title("LLM CSV Chat")
+st.title("Distributed UI CORE Exploitation Pattern Platform using cloud")
 
 # Load data and embeddings from the specified CSV file
 try:
@@ -64,7 +64,7 @@ try:
     input_text = st.text_area("Enter the query")
 
     # "Chat with CSV" button is always available
-    if st.button("Chat with CSV"):
+    if st.button("Enter"):
         if input_text:
             st.info("Your Query: " + input_text)
             result = chat_with_csv(data, input_text, embeddings, model)
